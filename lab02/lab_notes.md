@@ -34,3 +34,13 @@ steps taken:
  - Flag `-p` or `--parents` allows it to create the parrent directories
  - the `cat` command concatenates files and prints on the std output
 
+## Exercise 7
+Here's each line that I used:
+
+```bash 
+name="Uriel"
+course="IT Management"
+year=2
+
+echo "$name is studying $course in Year $year"
+```
