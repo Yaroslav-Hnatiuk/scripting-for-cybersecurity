@@ -1,6 +1,7 @@
 name = input("What is your name?: ")
 course = input("Whatchu studying?: ")
 favourite_area = input("What are of cybersecurity are you the most insterested in?: ")
+
 print("Hello, " + name + "!")
 print("You're studying " + course + ", What a surprise.")
 print("And you're interested in " + favourite_area)
