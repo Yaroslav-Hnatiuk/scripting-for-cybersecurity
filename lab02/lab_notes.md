@@ -86,3 +86,16 @@ curr_dir=$(pwd)
 
 echo "$name is logged in on the $hostname machine and is currently in $curr_dir"
 ```
+
+## Exercise 13
+using wc and pipes
+
+```bash
+#This is done in the lab02 dir
+ls | wc -l # produces 13
+ls -la | wc -l # produces 16
+env | wc -l # produces 87
+```
+
+This means that there are 13 files in the current directory, and 87 environmental variables on the system
+
