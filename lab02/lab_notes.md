@@ -174,3 +174,17 @@ Python: $(which python3)
 Python filenames found: $(ls /usr/bin | grep python | wc -l)
 " > ./summary.txt 
 ```
+
+## "Part 29" - Knowledge check
+Q1 - `pwd` displays current working directory
+Q2 - `..` represents parent directory
+Q3 - the difference between `>` and `>>` is that `>` overwrites the file contents with the stdout and `>>`just appends the stdout to the file 
+Q4 - `|` - pipe - forwards output of a command and uses it as the input of another specified command
+Q5 - The difference between `echo "$USER"` and: `echo '$USER'` is that double quotes can interpret variables as their content and single quotes interpret input literally 
+Q6 - `ls /usr/bin | grep python | wc -l` - 
+ `ls /usr/bin` - lists every item in the /usr/bin directory, which output gets piped into 
+ -> `grep python` - it filters every item to only display items with the text "python" in it, 
+ -> `wc -l` - the output of grep gets piped into "word count" which counts every line
+ output produces the number of files that have the text "python" in it, in the /usr/bin directory
+
+Q7 - `cd ~` - is not going to go into the repository directory, it is going into the home directory of the github account's workspace.
