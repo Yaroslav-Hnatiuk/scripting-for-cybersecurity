@@ -5,3 +5,4 @@ This is the repository for my practicals for the Scripting module of cybersecuri
 ## Labs
 
 - Lab 01 - Development Environment
+- Lab 02 - Linux Command Line
