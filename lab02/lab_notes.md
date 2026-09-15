@@ -99,3 +99,13 @@ env | wc -l # produces 87
 
 This means that there are 13 files in the current directory, and 87 environmental variables on the system
 
+## Exercise 14
+using grep command to find text
+
+```bash
+env | grep USER
+ls /usr/bin | grep python
+ls /usr/bin | grep ssh
+ls /usr/bin | grep python | wc -l 
+```
+
