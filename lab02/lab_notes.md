@@ -66,7 +66,6 @@ Locations of commands:
  - `cat` - /usr/bin/cat
 
 ## Exercise 10
-
 double quotes allow for variable expantions and single quotes treat it literally
 
 ```bash
@@ -77,3 +76,13 @@ echo 'Module is $module' # output produces "Module is $module"
 ```
 
 
+## Exercise 11
+Command substitution
+
+```bash
+name=$(whoami)
+hostname=$(hostname)
+curr_dir=$(pwd)
+
+echo "$name is logged in on the $hostname machine and is currently in $curr_dir"
+```
