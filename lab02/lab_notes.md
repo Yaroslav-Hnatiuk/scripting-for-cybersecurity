@@ -109,3 +109,12 @@ ls /usr/bin | grep ssh
 ls /usr/bin | grep python | wc -l 
 ```
 
+## Exercise 15
+Chaining pipes
+
+```bash
+ls /usr/bin | grep ssh | wc -l # 7
+ls /usr/bin | grep python | wc -l # 6
+env | grep PATH | wc -l # 5
+ls | wc -l # 13
+```
