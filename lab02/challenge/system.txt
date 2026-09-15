@@ -1,0 +1,1 @@
+codespaces-6fd5fd \n/bin/bash \n/workspaces/scripting-for-cybersecurity/lab02/challenge

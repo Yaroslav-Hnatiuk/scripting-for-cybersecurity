@@ -136,3 +136,41 @@ Items: $items
 "
 ```
 
+## "Part 27" - Cybersec scenario
+
+I didn't want to use multiple echo's and appends because it gets messy
+
+```bash
+echo "$USER
+$(hostname)
+$(pwd)
+$SHELL
+$HOME
+$(which python3)
+$(which bash)
+$(env | wc -l)
+$(ls /usr/bin | grep ssh | wc -l)" > ./investigation.txt
+
+cat ./investigation.txt
+``` 
+
+## "Part 28" - Final Challenge
+
+```bash
+
+mkdir challenge && cd ./challenge
+touch user.txt system.txt summary.txt
+# technically redundant since we will forward information into them
+# Helps with autocompletion with tab though.
+
+echo $USER > ./user.txt
+echo "$(hostname) \n$SHELL \n $(pwd)" > ./system.txt
+
+echo "Cybersecurity CLI Report
+User: $USER
+Host: $(hostname)
+Directory: $(pwd)
+Python: $(which python3)
+Python filenames found: $(ls /usr/bin | grep python | wc -l)
+" > ./summary.txt 
+```
