@@ -118,3 +118,21 @@ ls /usr/bin | grep python | wc -l # 6
 env | grep PATH | wc -l # 5
 ls | wc -l # 13
 ```
+
+## Exercise 16
+building a report
+
+```bash
+username=$(whoami)
+hostname=$(hostname)
+current_dir=$(pwd)
+items=$(ls $current_dir | wc -l)
+
+echo "
+User: $username
+Computer: $hostname
+Directory: $current_dir
+Items: $items
+"
+```
+
