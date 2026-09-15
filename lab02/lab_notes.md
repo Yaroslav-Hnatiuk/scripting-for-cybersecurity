@@ -64,3 +64,16 @@ Locations of commands:
  - `python3` - /home/codespace/.python/current/bin/python3
  - `grep` - /usr/bin/grep
  - `cat` - /usr/bin/cat
+
+## Exercise 10
+
+double quotes allow for variable expantions and single quotes treat it literally
+
+```bash
+module="Scripting"
+
+echo "Module is $module" # output produces "Module is Scripting"
+echo 'Module is $module' # output produces "Module is $module"
+```
+
+
