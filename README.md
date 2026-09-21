@@ -7,3 +7,4 @@ This is the repository for my practicals for the Scripting module of cybersecuri
 - Lab 01 - Development Environment
 - Lab 02 - Linux Command Line
 - Revision 1: Covering Labs 1 & 2
+- Lab 03 - text Processing & log analysis
